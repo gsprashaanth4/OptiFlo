@@ -53,7 +53,7 @@ unsigned long time0;
 // const String MODE = "WIRED_DATA";
 // const String MODE = "WIRED_VISUAL";
 const String MODE = "WIRELESS";
-// const String MODE = "WIRELESS_DATA";
+// const String MODE = "WIRELESS_DATA"; // to be connected to the computer to view the FPS during wireless transmission
 // const String MODE = "WIRED_IMG";
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
