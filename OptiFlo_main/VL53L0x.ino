@@ -10,6 +10,7 @@ void vlSetup() {
 
 void vlMeasure() {
   if(lox.isRangeComplete()) {
+    // reading
     distance = lox.readRange();
     distance /= 10;
     distance -= 2;

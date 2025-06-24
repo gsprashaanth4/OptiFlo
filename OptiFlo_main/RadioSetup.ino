@@ -9,6 +9,6 @@ void RadioSetup() {
 
 
 void RadioWrite() {
-    /* Writnig an instance r1 of RadioPacket */
+    /* Writing an instance r1 of RadioPacket */
   radio.write(&r1, sizeof(r1));
 }
