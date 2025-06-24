@@ -20,10 +20,12 @@ while True:
         print("Incomplete frame received")
         continue
 
+    # Frame storing the data points
     frame = np.frombuffer(data, dtype=np.uint8).reshape((height, width))
 
-    scale = 10
-    frame = cv2.resize(frame, (width * scale, height * scale), interpolation=cv2.INTER_NEAREST)
+    # scaling factor to be used if needed
+    # scale = 10
+    # frame = cv2.resize(frame, (width * scale, height * scale), interpolation=cv2.INTER_NEAREST)
 
 
     cv2.imshow("Opti", frame)
