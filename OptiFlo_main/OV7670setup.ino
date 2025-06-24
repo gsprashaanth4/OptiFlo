@@ -3,6 +3,7 @@
    Visualizer Mode (Wired transmission of image data to python visualizer) */
 
 /* High-Speed GPIO_port reading function to get data from the camera */
+/* there are various other GPIO ports, like port 7 for example that could be used based on need*/
 inline byte readPixel() {
   uint32_t gpioState = GPIO6_PSR;
   byte pixD = 0;
