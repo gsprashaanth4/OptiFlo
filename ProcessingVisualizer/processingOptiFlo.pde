@@ -49,7 +49,7 @@ void draw() {
   println("X: " + x + ", Y: " + y);
   
   // Draw a circle at that position
-  ellipse(width/2+x, height/2+y, 5, 5);
+  ellipse(width/2+x, height/2+y, 5, 5); // needed to be changed with respect to orientation
   
   // Reset the background when the sensor is reset
   if(x==0.0 && y==0.0) {
