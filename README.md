@@ -9,3 +9,5 @@ This is just the basic outline of the sensor package, ofcourse, though not "perf
 
 ### Instructables:
 https://www.instructables.com/Optical-Flow-Sensor-With-OV7670-Camera-and-Teensy-/
+### Youtube:
+https://youtu.be/PgPi8FsYMoQ
