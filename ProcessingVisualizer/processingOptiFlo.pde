@@ -14,7 +14,7 @@ void setup() {
   noStroke();
   
   String portName = "COM11";  // Change as needed
-  myPort = new Serial(this, portName, 115200);
+  myPort = new Serial(this, portName, 115200); // Baud rate to match with the one in the OptiFlo sketches
   delay(1000);
   background(0);
 }
